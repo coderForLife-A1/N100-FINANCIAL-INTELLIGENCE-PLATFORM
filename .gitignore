@@ -1,0 +1,53 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.so
+.Python
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Environment and local configuration
+.env
+.env.*
+!.env.example
+
+# Test, coverage, and build artifacts
+.pytest_cache/
+.coverage
+.coverage.*
+htmlcov/
+*.egg-info/
+build/
+dist/
+
+# Generated project data and outputs
+data/*.db
+data/*.sqlite
+data/*.sqlite3
+output/*
+reports/*.html
+reports/radar_charts/*
+reports/sector/*
+reports/tearsheets/*
+reports/portfolio/*
+
+# Keep directory placeholders when needed
+!output/.gitkeep
+!reports/.gitkeep
+!reports/radar_charts/.gitkeep
+!reports/sector/.gitkeep
+!reports/tearsheets/.gitkeep
+!reports/portfolio/.gitkeep
+
+# IDE and operating system files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
